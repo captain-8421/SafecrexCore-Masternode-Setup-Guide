@@ -1,2 +1,0 @@
-# SafeCrex-Masternode-Setup-Guide
- 
