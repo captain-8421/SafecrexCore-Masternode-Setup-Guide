@@ -1,5 +1,3 @@
-SafeCrex-Masternode-Setup-Guide
- 
 <img src="https://avatars1.githubusercontent.com/u/62416254?s=400&u=ad4ef48524c7a39acd5da813fbc6e624940ccc03&v=4">
 
 SafeCrex Masternode Setup Guide
@@ -7,7 +5,7 @@ SafeCrex Masternode Setup Guide
 
 ## Introduction
 
-This guide is for a single masternode, on a Ubuntu 18.04 64-bit server (VPS) running headless and will be controlled from the wallet on your local computer (Control wallet). The wallet on the the VPS will be referred to as the Remote wallet.
+This guide is for a single masternode, on a Ubuntu 18.04 64-bit server (VPS) and on a Ubuntu 16.04 64-bit server(VPS) running headless and will be controlled from the wallet on your local computer (Control wallet). The wallet on the the VPS will be referred to as the Remote wallet.
 
 You will need your masternode server details for progressing through this guide including the public IP address.
 
@@ -46,9 +44,9 @@ masternode genkey
 getaccountaddress "chooseAnyNameForYourMasternode"
 ```
 
-**Step 3:** Still in the control wallet, send 1,000 SFCX to the wallet address you generated in Step 2. 
+**Step 3:** Still in the control wallet, send 1,000 SFCX to the wallet address you generated in Step 2.
 
-Be 100% sure that you entered the address correctly. You can verify this when you paste the address into the **"Pay To:"** field, the label will auto populate with the name you chose. 
+Be 100% sure that you entered the address correctly. You can verify this when you paste the address into the **"Pay To:"** field, the label will auto populate with the name you chose.
 
 Also make sure this is exactly **1,000 SFCX**; No less, no more.
 
@@ -101,7 +99,7 @@ cd ~
 **Step 2:** From your home directory, download the latest version from the BTCT GitHub repository:
 
 ```
-wget https://github.com/safecrex/safecrexcore/blob/master/wallet/Safecrex-linux64.tar.gz
+wget https://github.com/safecrex/safecrexcore/raw/master/wallet/sfcx.zip
 ```
 
 Always check the releases page for the latest version and update the URL to reflect the most current version.
@@ -109,7 +107,7 @@ Always check the releases page for the latest version and update the URL to refl
 **Step 3:** Unzip & Extract:
 
 ```
-tar -zxvf Safecrex-linux64.tar.gz
+unzip sfcx.zip
 ```
 
 **Step 4:** Copy the files to the local bin. **Requires sudo**
