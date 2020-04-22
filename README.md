@@ -1,3 +1,5 @@
+# SafeCrex-Masternode-Setup-Guide
+
 <img src="https://avatars1.githubusercontent.com/u/62416254?s=400&u=ad4ef48524c7a39acd5da813fbc6e624940ccc03&v=4">
 
 SafeCrex Masternode Setup Guide
@@ -50,7 +52,7 @@ Be 100% sure that you entered the address correctly. You can verify this when yo
 
 Also make sure this is exactly **1,000 SFCX**; No less, no more.
 
-**Be absolutely sure the send to address is copied correctly and then check it again. We cannot help you if you send 10,000 BTCT to an incorrect address.**
+**Be absolutely sure the send to address is copied correctly and then check it again. We cannot help you if you send 1,000 SFCX to an incorrect address.**
 
 Please allow at least 1 block confirmation to complete before moving on.
 
@@ -64,7 +66,7 @@ masternode outputs
 
 **Step 5:** Still on the main computer, go into the BTCT data directory:
 
-OS | Path to BTCT
+OS | Path to Safecrexcore
 ------------ | -------------
 Windows | `%Appdata%/Roaming/SafecrexCore/`
 macOS | `~/Library/Application\ Support/SafecrexCore/`
