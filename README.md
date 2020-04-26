@@ -64,7 +64,7 @@ masternode outputs
 
 *This gets the proof of transaction of sending 1,000 SFCX*
 
-**Step 5:** Still on the main computer, go into the BTCT data directory:
+**Step 5:** Still on the main computer, go into the Safecrexcore data directory:
 
 OS | Path to Safecrexcore
 ------------ | -------------
@@ -98,7 +98,7 @@ Install the latest version of the Safecrex Core wallet onto your masternode. The
 cd ~
 ```
 
-**Step 2:** From your home directory, download the latest version from the BTCT GitHub repository:
+**Step 2:** From your home directory, download the latest version from the Safecrexcore GitHub repository:
 
 ```
 wget https://github.com/safecrex/safecrexcore/raw/master/wallet/sfcx.zip
